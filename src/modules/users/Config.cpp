@@ -325,7 +325,7 @@ guessProductName()
         }
         if ( dmiProduct.isEmpty() )
         {
-            dmiProduct = QStringLiteral( "pc" );
+            dmiProduct = QStringLiteral( "mac" );
         }
         tried = true;
     }
